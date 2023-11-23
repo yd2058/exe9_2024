@@ -1,7 +1,7 @@
 package com.example.exe9_2024;
 /**
  * @author		Yiftah David yd2058@bs.amalnet.k12.il
- * @version	    1.0
+ * @version	    1.1
  * @since		19/11/2023
  * this is a credits screen
  */

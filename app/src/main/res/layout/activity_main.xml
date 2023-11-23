@@ -23,10 +23,10 @@
             android:layout_weight="1" />
 
         <EditText
-            android:id="@+id/et"
+            android:id="@+id/eti"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2"
+            android:layout_weight="1.5"
             android:ems="10"
             android:hint="text"
             android:inputType="textMultiLine" />
@@ -37,10 +37,10 @@
             android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/tvc"
+            android:id="@+id/tvt"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1.5" />
 
         <Space
             android:layout_width="match_parent"
@@ -48,12 +48,12 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/fbtn"
+            android:id="@+id/sbtn"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:onClick="read"
-            android:text="Raw File" />
+            android:onClick="saver"
+            android:text="Save" />
 
         <Space
             android:layout_width="wrap_content"
@@ -61,12 +61,25 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/tbtn"
+            android:id="@+id/rbtn"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:onClick="txtv"
-            android:text="Text" />
+            android:onClick="res"
+            android:text="Reset" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/obtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Exit"
+            android:onClick="out"/>
 
         <Space
             android:layout_width="match_parent"
